@@ -1,0 +1,160 @@
+body {
+	font-size: 16 px;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color:#ffc93c;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap:9px;
+  background-color: #155263;
+  padding: 12px;
+  margin-left: 7%;  
+  margin-right: 30%;
+  margin-top: 3%;
+}
+
+.grid-item {
+  background-color: #ff9a3c;
+  border: 1px solid #155263;
+  padding: 5px;
+  padding-top: 5px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.grid-item:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.time {
+	font-size: 1.5rem;
+}
+
+.nav-bar {
+	background-color: #155263;
+	height: 15%;
+	position:fixed;
+	width: 100%;
+	top:0;
+	/*display:inline;*/
+	/*position: absolute;*/
+}
+
+.regInput{
+	background-color:#155263;
+	color:white;
+	padding:1%;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+#mainTitle {
+	color: white;
+	/*width: 600px;*/
+	line-height: 100px;
+	margin: 0;
+	padding-left: 70px;
+	display:inline;
+	font-size: 2.5rem;
+	position: relative;
+}
+
+#btnLogin, #btnSignIn, #input-submit, #input-login-submit {
+	background-color: #ff6f3c;
+	color: black;
+	border: 2px solid black;
+	padding: 15px;
+	/*position: relative;*/
+}
+
+#input-submit, #input-login-submit {
+	background-color: #155263;
+	color: white;
+	margin:5%;
+}
+
+.sub-section {
+	margin-top: 10%;
+	background-color: #155263;
+	margin-left: 7%;  
+	margin-right: 30%;
+}
+
+.userSection {
+	background-color: #155263;
+}
+
+.userP {
+	color:white;
+	font-size:1.5rem;
+	margin-left: 5%;
+}
+
+.sub-section-footer{
+	margin-top: 2%;
+	background-color: #ff9a3c;
+	margin-left: 7%;  
+	margin-right: 30%;
+	border: 2px solid #155263;
+}
+
+.footerText{
+	text-align: center;
+}
+
+#footer {
+	margin-bottom:5%;
+}
+
+h2 {
+	color:white;
+	text-align: center;
+	font-size: 1.75rem;
+}
+
+#btnLogin{
+	margin-left: 400px;
+}
+
+#btnLogin:hover, #btnSignIn:hover, #input-submit:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.regBlock{
+	margin:25%;
+	margin-top:10%;
+	background-color:#ff9a3c;
+	border: 2px solid #155263;
+}
+
+.regButton {
+	text-align: center;
+}
+
+.input {
+	margin: 0 auto;
+	display:block;
+	text-align: center;
+}
+
+.sidebar {
+	height: 100%; 
+	width: 23%; 
+	position: fixed; 
+	z-index: 1; 
+	top: 15%; 
+	right: 0;
+	background-color: #ff9a3c; 
+	overflow-x: hidden; 
+	padding-top: 20px;
+	border-left: 10px solid #155263;
+}
